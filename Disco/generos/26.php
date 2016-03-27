@@ -1,0 +1,3 @@
+<?php
+$img='discosamba.jpg';
+?>

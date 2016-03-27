@@ -1,0 +1,3 @@
+<?php
+$img='therollingstones.jpg';
+?>

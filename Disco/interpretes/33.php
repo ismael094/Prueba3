@@ -1,0 +1,3 @@
+<?php
+$img='marvingaye.jpg';
+?>

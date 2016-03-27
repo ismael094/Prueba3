@@ -1,0 +1,3 @@
+<?php
+$img='ottawan.jpg';
+?>

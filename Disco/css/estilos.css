@@ -1,0 +1,568 @@
+	 @import url(http://fonts.googleapis.com/css?family=Capriola);
+
+	 #bdd {
+		background: url(../img/Avicii_Triangles_Logo_HD_Wallpaper_DJ_1920x1080.jpg) center center;
+		background-size: 100% 100%;
+		
+	}
+	body {
+-ms-touch-action: manipulation;
+touch-action: manipulation;}
+	#todo {
+		width: 100%;
+		margin-top: 50px;
+		background: url(../img/Avicii_Triangles_Logo_HD_Wallpaper_DJ_1920x1080.jpg) center center;
+		background-size: 100% 100%;
+		
+	}
+	
+	#iz {
+		border: 2px solid red;
+		height: 600px;
+		
+	}
+	#de {
+		
+		
+		border: 1px solid white;
+		box-shadow: 5px 5px 5px black;
+		height: 600px;
+
+		
+	    
+	   
+	}
+	@media (max-width: 992px) {
+  		#de {
+    		position: fixed;
+		    height: 100px;
+		    bottom: 0px;
+		    width: 100%;
+		    background: grey;
+  		}
+	}
+	#body {
+	    display: inline-block;
+		
+		
+	}
+	#iframe1 {
+		
+		
+	}
+	#iframe2 {
+		width:350px;
+		height:600px;
+	}
+	.agno {
+		display: none;
+	}
+	#menu1 {
+		background: white;
+		border-radius: 10px;
+	}
+	#repro_page {
+		background: url(../img/blackspeakers3diphone6plushdwallpaper-576x1024.jpg) center center;
+		background-size: 100% 700px;
+		text-align: center;
+	}
+	#name {
+		color:white;
+		font-size:17px;
+		margin:5px;
+	}
+	#gen_page {
+	
+	}
+	.songs {
+		width: 100%;
+	}
+	#table_songs {
+		width: 100%;
+		
+		border:0;
+		  -webkit-touch-callout: none;
+          -webkit-user-select: none;
+          -khtml-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+		
+	}
+	@media (max-width: 992px) {
+  		#table_songs {
+		width: 100%;
+		
+		border:0;
+		  -webkit-touch-callout: none;
+          -webkit-user-select: none;
+          -khtml-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+		
+	}
+	}
+	#table_songs td {
+		height: 40px;
+		border:0;
+		border-bottom: 1px solid black;
+	}
+	#menu1 {
+		margin-right: auto;
+		margin-left: auto;
+	}
+	#menu1 td:hover {
+		background:   #99ccff;
+		 -webkit-transition: all 0.5s;
+          -moz-transition: all 0.5s;
+          transition: all 0.5s;
+          cursor: pointer;
+	}
+	#menu1 td {
+		text-align: center;
+		font-size: 20px;
+		border-radius: 10px;
+		
+		border: 0;
+		width: 175px;
+		height: 50px;
+
+	}
+	#menu1 a {
+		text-decoration: none;
+		color: black;
+	}
+	#search {
+		margin-top: 20px;
+	}
+	#playlist ul {
+		margin: 10px;
+	}
+	#playlist li {
+		height: 30px;
+	}
+	#settings {
+		position: relative;
+		bottom: -450px;
+	}
+	#controladores {
+		width: 300px;
+		height: 60px;
+		border: 1px solid white;
+		box-shadow: 5px 5px 5px black;
+		margin-top: 30px;
+	}
+	.gen {
+		
+		overflow-y: auto;
+		
+		
+	}
+	#punt_song {
+		width: 300px;
+		height: 120px;
+		border: 1px solid white;
+		box-shadow: 5px 5px 5px black;
+		margin-top: 20px;
+		font-size: 20px;
+		color: white;
+		
+	}
+	.tit {
+		background: rgba(255,255,255,0.9);
+	}
+	.cam {
+		background: rgba(255,255,255,0.5);
+	}
+	.cam:hover {
+		 background:   #3366cc;
+          -webkit-transition: all 0.5s;
+          -moz-transition: all 0.5s;
+          transition: all 0.5s;
+          cursor: pointer;
+	}
+	.gen_img {
+		width: 150px;
+		height: 150px;
+		margin-top: 30px;
+	}
+	.gen_img2 {
+		width: 150px;
+		height: 150px;
+		
+	}
+	#gednre {
+		width: 150px;
+		height: 150px;
+		float: left;
+		margin: 1px;
+		margin-left: 25px;
+		margin-top: 25px;
+		
+		box-shadow: 5px 5px 5px black;
+		border: 1px solid black;
+	}
+	#tipo {
+		text-decoration: none;
+		color: #000033;
+		font-size: 18px;
+		margin-right: auto;
+		margin-left: auto;
+		text-align: center;
+
+	}
+	#genre:hover {
+		opacity: 0.6;
+		 -webkit-transition: all 0.5s;
+          -moz-transition: all 0.5s;
+          transition: all 0.5s;
+          cursor: pointer;
+	}
+	.no {
+		font-size: 25px;
+		
+		
+		text-align: left;
+	}
+	
+
+	#control {
+		margin-top: 5px; 
+	}
+	#stop {
+		width: 55px;
+	 	height: 55px;
+	 	float: right;
+	 	
+	 	margin: 0px;
+	 	margin-right: 13px;
+	}
+	 #stop1 {
+	 	width: 50px;
+	 	height: 50px;
+	 	background: url(../img/pause-button.svg) center center;
+	 	background-size: 50px 50px; 
+	 	float: right;
+		cursor: pointer;
+	 }
+
+	 #play {
+		width: 55px;
+	 	height: 55px;
+	 	float: right;
+	 	margin: 0px;
+	}
+	 #play1 {
+	 	width: 45px;
+	 	height: 45px;
+	 	background: url(../img/next.svg) center center;
+	 	background-size: 45px 45px; 
+	 	float: right;
+		cursor: pointer;
+	 }
+	 #back {
+		width: 55px;
+	 	height: 55px;
+	 	float: left;
+	 	margin: 0px;
+	}
+	 #back1 {
+	 	width: 45px;
+	 	height: 45px;
+	 	background: url(../img/back.svg) center center;
+	 	background-size: 45px 45px; 
+	 	float: right;
+		cursor: pointer;
+	 }
+	  #ale {
+		width: 55px;
+	 	height: 55px;
+	 	float: left;
+	 	margin: 0px;
+	}
+	 #ale1 {
+	 	width: 45px;
+	 	height: 45px;
+	 	background: url(../img/ale.svg) center center;
+	 	background-size: 45px 45px; 
+	 	float: right;
+		cursor: pointer;
+	 }
+	#repeat {
+		width: 55px;
+	 	height: 55px;
+	 	float: right;
+	}
+	#repeat1 {
+		width: 45px;
+	 	height: 45px;
+	 	background: url(../img/arrows1.svg) center center;
+	 	background-size: 45px 45px; 
+	 	float: right;
+		cursor: pointer;
+	}
+	#tabla_normal {
+
+		width: 900px;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+
+		top: -125px;
+
+	 	
+	 	background: #5BC1E1;
+	 	border: 5px solid #227C97;
+
+	}
+	@media only screen and (max-width: 700px) {
+		#iz {
+			display: none;
+		}
+		
+	}
+#tabla_normal th {
+	width: 250px;
+}
+#tabla_normal td {
+	width: 500px;
+}
+#tabla2 {
+
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	
+
+}
+#tabla2 input {
+	width: 250px;
+}
+#tabla2 tr {
+	height: 50px;
+}
+#foto {
+	float:right;
+	top:25px;
+	z-index: 100;
+	position: relative;
+	right: 0px; 
+}
+ #anadir {
+ 	width: 25px;
+ 	height: 25px;
+ 	float:right;
+ 	border-radius: 12.5px;
+ 	margin-top: -25px;
+ 	margin-right: 75px;
+ }
+ #anadir:hover {
+ 	border: 1px solid red;
+
+ }
+  #anadir_exp {
+ 	width: 25px;
+ 	height: 25px;
+ 	float:right;
+ 	border-radius: 12.5px;
+ 	margin-top: -25px;
+ 	margin-right: 75px;
+ }
+ #anadir_exp:hover {
+ 	border: 1px solid red;
+
+ }
+ #tabla_admin {
+ 	width: 900px;
+ 	text-align: center;
+ 	background: #5BC1E1;
+ 	border: 5px solid #227C97;
+ }
+ #tabla_admin tr {
+ 	border-bottom: 1px solid #227C97;
+
+ }
+ #tabla_admin td {
+ 	height: 50px;
+ }
+ #tabla_admin .class:hover  {
+          cursor: pointer;
+          background: #A3FAFA;
+          -webkit-transition: all 0.3s;
+          -moz-transition: all 0.3s;
+          transition: all 0.3s;
+         }
+ #end_sub {
+	width: 120px;
+	height: 35px;
+	          
+	float:left;
+	margin-top: 10px;
+	font-size: 15px;
+	background: white;
+	font-family: Helvetic;
+	box-shadow: 5px 5px 25px;
+	border-radius: 10px;
+	border: 2px solid #BDBDBD;
+        }
+        #end_sub:hover  {
+          cursor: pointer;
+          background: #E6E6E6;
+          -webkit-transition: all 0.3s;
+          -moz-transition: all 0.3s;
+          transition: all 0.3s;
+         }
+    #end_sub5 {
+	width: 120px;
+	height: 40px;
+	          
+	float:left;
+	margin-top: -100px;
+	font-size: 15px;
+	background: white;
+	font-family: Helvetic;
+	box-shadow: 5px 5px 25px;
+	border-radius: 10px;
+	border: 2px solid #BDBDBD;
+        }
+        #end_sub5:hover  {
+          cursor: pointer;
+          background: #E6E6E6;
+          -webkit-transition: all 0.3s;
+          -moz-transition: all 0.3s;
+          transition: all 0.3s;
+         }
+ #tabla_login {
+ 	width: 400px;
+ }
+
+  #tabla_login input {
+ 	width: 200px;
+
+ }
+  #tabla_media {
+  	width: 400px;
+  	margin-top: 200px;
+  	border: 5px solid #21816C;
+  	padding: 15px;
+  	font-size: 18px;
+
+  }
+  #tabla_media input[type=text] {
+  	width: 200px;
+  	height: 30px;
+  	font-size: 18px;
+  }
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  text-align: center;
+  font-family: Capriola, Helvetica, sans-serif;
+}
+#cssmenu ul li {
+  margin-left: 30px;
+}
+#cssmenu {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 59px;
+  padding-bottom: 4px;
+  text-align: center}
+#cssmenu.align-right {
+  float: right;
+}
+#cssmenu.align-right ul li {
+  float: right;
+  width: 100px;
+  margin-right: 0;
+  margin-left: 4px;
+}
+#cssmenu.align-right ul li:first-child,
+#cssmenu.align-right ul li:first-child > a {
+  border-bottom-right-radius: 3px;
+}
+#cssmenu #bg-one,
+#cssmenu #bg-two,
+#cssmenu #bg-three,
+#cssmenu #bg-four {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+#cssmenu #bg-one {
+  height: 10px;
+  background: #0f71ba;
+}
+#cssmenu #bg-two {
+  height: 59px;
+  z-index: 2;
+  background: url('../img/bg.png');
+}
+#cssmenu #bg-three {
+  bottom: 4px;
+  height: 55px;
+  z-index: 3;
+  background: #222222;
+  background: -moz-linear-gradient(top, #555555 0%, #222222 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #555555), color-stop(100%, #222222));
+  background: -webkit-linear-gradient(top, #555555 0%, #222222 100%);
+  background: -o-linear-gradient(top, #555555 0%, #222222 100%);
+  background: -ms-linear-gradient(top, #555555 0%, #222222 100%);
+  background: linear-gradient(to bottom, #555555 0%, #222222 100%);
+}
+#cssmenu #bg-four {
+  bottom: 4px;
+  height: 55px;
+  z-index: 4;
+  background: url('../img/bg.png');
+}
+#cssmenu ul {
+  height: 59px;
+}
+#cssmenu ul li {
+  float: left;
+  width: 140px;
+  margin-right: 4px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  z-index: 5;
+  text-align: center
+}
+#cssmenu ul li a {
+  padding: 24px 30px 20px 30px;
+  margin-bottom: 4px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  color: #eeeeee;
+  font-size: 15px;
+  text-decoration: none;
+}
+#cssmenu ul li:first-child,
+#cssmenu ul li:first-child > a {
+  border-bottom-left-radius: 3px;
+}
+#cssmenu ul li:hover,
+#cssmenu ul li.active {
+  background: #0f71ba;
+  background: -moz-linear-gradient(top, #3fa4f0 0%, #0f71ba 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3fa4f0), color-stop(100%, #0f71ba));
+  background: -webkit-linear-gradient(top, #3fa4f0 0%, #0f71ba 100%);
+  background: -o-linear-gradient(top, #3fa4f0 0%, #0f71ba 100%);
+  background: -ms-linear-gradient(top, #3fa4f0 0%, #0f71ba 100%);
+  background: linear-gradient(to bottom, #3fa4f0 0%, #0f71ba 100%);
+}
+#cssmenu ul li a:hover,
+#cssmenu ul li.active > a {
+  background: url('../img/bg.png');
+  color: #ffffff;
+}
